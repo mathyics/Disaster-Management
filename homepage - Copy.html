@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body{
+            padding:30px;
+            background:linear-gradient(to right, #e2e2e2, #c9d6ff);
+        }
+        h1{
+            text-align:center;
+
+        }
+        button{
+            color:rgb(20, 20, 21);
+            background-color:#c9d6ff;
+            padding:5px;
+            border-radius:5px;
+            font-size:1rem;
+            font-weight:bold;
+            border:none;
+        }
+        button:hover{
+            text-decoration: underline;
+            color:blue;
+        }
+        button, div{
+            margin-left:15%;
+            font-size:20px;
+            padding:10px;
+        }
+        div{
+            font-weight:400;
+            color:rgb(12,11,11);
+
+        }
+        span{
+            font-weight:600;
+            font-size:22px;
+            color:black;
+        }
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    border:1rem;
+    border-color: #c9d6ff;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+  
+    
+}
+.navlogo {
+    margin-right: 0px;
+    height: 10vh;
+    width: 50%;
+}
+.nav_left{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.navbut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family:  sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #394250 0%, #367AF6 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  
+}
+
+    </style>
+    <script type="module" src="login2.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav_left">
+           
+            <img src="safe.png" alt=""  class="navlogo">
+            <button class="navbut" ><a href="cfindex.html">Home</a></button>
+            
+            <button class="navbut"><a href="weather.html">Weather</a></button>
+            <button class="navbut"><a href="https://www.meteoblue.com/en/weather/maps#coords=4/12.97/77.59&map=windAnimation~rainbow~auto~10%20m%20above%20gnd~none">Map</a></button> 
+            <button class="navbut"><a href="homepage.html">Account</a></button>
+          
+                
+        </div>
+       
+    </nav>
+    <br>
+    <br>
+    <br>
+    <h1>login page</h1>
+    <div>First Name: <span id="loggedUserFName"></span></div>
+    <div>Last Name: <span id="loggedUserLName"></span></div>
+    <div>Email: <span id="loggedUserEmail"></span></div>
+    <button id="logout">Logout</button>
+</body>
+</html>

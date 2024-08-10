@@ -1,0 +1,236 @@
+*{
+    width: 1500px;
+    height: 1500px;
+}
+h2{
+    font-family:monospace;
+    font-size:25px;
+    
+}
+.heading{
+    width: 1500px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.head{
+   
+    margin-left:630px;
+}
+.hurricane{
+    width:1500px;
+    height: 500px;
+    margin-top:30px;
+    display: flex;
+    flex-direction: row;
+}
+.infohurricane{
+    width: 300px;
+    height: 200px;
+    background-color: pink;
+    margin: 50px;
+    box-shadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.5);
+}
+.hurricaneimage{
+    width:850px;
+    height: 500px;
+    background-image: url(hurrican4.png);
+    background-size:cover;
+    border-radius: 4px;
+    box-shadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.5);
+}
+.hurricaneimage:hover{
+    transform: scale(1.025);
+}
+.pofhurricane{
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+    text-align: center;
+}
+.earthquake{
+    width:1500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+}
+.infoearthquake{
+    width: 300px;
+    height: 200px;
+    background-color: beige;
+    margin: 50px;
+    box-shadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.5);
+}
+.earthquakeimage{
+    width:850px;
+    height: 500px;
+    background-image: url(earthquake.jpg);
+    background-size: cover;
+    border-radius: 4px;
+    box-shadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.5);
+}
+.pofearthquake{
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+    text-align: center;
+}
+.wildfires{
+    width:1500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+}
+.wildfiresimage{
+    width:850px;
+    height: 500px;
+    background-image: url(wildfire.jpg);
+    background-size: cover;
+    border-radius: 4px;
+    box-shadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.5);
+}
+.infowildfires{
+    width: 300px;
+    height: 200px;
+    background-color: navajowhite;
+    margin: 50px;
+    box-shadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.5);
+}
+.pofwildfires{
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+    text-align: center;
+}
+.landslides{
+    width:1500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+}
+.landslidesimage{
+    width:850px;
+    height: 500px;
+    background-image: url(landslides.jpg);
+    background-size: cover;
+    border-radius: 4px;
+    box-shadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.5);
+}
+.infolandslides{
+    width: 300px;
+    height: 200px;
+    background-color: navajowhite;
+    margin: 50px;
+    box-shadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.5);
+}
+.poflandslides{
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+    text-align: center;
+}
+.flood{
+    width:1500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+}
+.floodimage{
+    width:850px;
+    height: 500px;
+  background-image: url(flood2.jpg);
+    background-size: cover;
+    border-radius: 4px;
+    box-shadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.5);
+}
+.infoflood{
+    width: 300px;
+    height: 200px;
+    background-color: navajowhite;
+    margin: 50px;
+    box-shadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.5);
+}
+.pofflood{
+    width: 300px;
+    height: 200px;
+    font-size: 25px;
+    text-align: center;
+}
+.landslidesimage:hover{
+    transform: scale(1.025);
+}
+.floodimage:hover{
+    transform: scale(1.025);
+}
+.wildfiresimage:hover{
+    transform: scale(1.025);
+}
+.earthquakeimage:hover{
+    transform: scale(1.025);
+}
+body{
+    width: 80%;
+    background-color: #c9d6ff;
+    background:linear-gradient(to right,#e2e2e2,#c9d6ff);
+}
+button{
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: burlywood;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    border:1rem;
+    border-color: #c9d6ff;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+  
+    
+}
+.navlogo {
+    margin-right: 0px;
+    height: 15vh;
+    width: 30vh;
+}
+.nav_left{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.navbut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family:  sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #394250 0%, #367AF6 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+   
+    color: white;
+}
